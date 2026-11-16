@@ -185,6 +185,14 @@ List<_ToolItem> _buildTools() {
       description: appLocalizations.trafficStatsDesc,
       open: (context) => push(context, const TrafficStatsPage()),
     ),
+    _ToolItem(
+      id: 'freeOpenVpn',
+      icon: Icons.vpn_key_rounded,
+      color: const Color(0xFF2E7D32),
+      title: 'Free OpenVPN',
+      description: 'Discover free OpenVPN servers and add them as nodes',
+      open: (context) => push(context, const FreeOpenVpnPage()),
+    ),
   ];
 }
 

@@ -12,4 +12,5 @@ export 'toolbox/age_tool.dart';
 export 'toolbox/iperf.dart';
 export 'toolbox/local_ping.dart';
 export 'toolbox/traffic_stats.dart';
+export 'toolbox/free_openvpn.dart';
 export 'speed_test.dart';
